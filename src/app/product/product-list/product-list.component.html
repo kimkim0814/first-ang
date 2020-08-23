@@ -1,8 +1,7 @@
 <div class="container">
   <br>
   <div class="row">
-    <div class="col-sm" *ngFor="let product of products">
- 
+    <div *ngFor="let product of products" class="col-sm" >
       <a [routerLink]="['/detail']">
       <div class="card">
         <img src="/assets/img/download-1.jpg" class="card-img-top" alt="...">
